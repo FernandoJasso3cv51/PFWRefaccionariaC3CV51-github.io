@@ -17,6 +17,10 @@ class MiNav extends HTMLElement {
           <a href="index.html">
             Sesión</a>
         </li>
+        <li>
+        <a href="Catalogo.html">
+            Catalogo</a>
+        </li>
       </ul>`;
     this.ul =
       this.querySelector("ul");
@@ -52,7 +56,7 @@ class MiNav extends HTMLElement {
             "Administrador")) {
             html += /* html */
               `<li>
-                <a href="alumnos.html">Alumnos</a>
+                <a href="alumnos.html">Cliente</a>
               </li>
               <li>
                 <a href="usuarios.html">Usuarios</a>
