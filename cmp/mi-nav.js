@@ -21,6 +21,10 @@ class MiNav extends HTMLElement {
         <a href="Catalogo.html">
             Catalogo</a>
         </li>
+        <li>
+        <a href="Conocenos.html">
+            Conocenos</a>
+        </li>
       </ul>`;
     this.ul =
       this.querySelector("ul");
