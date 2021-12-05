@@ -1,0 +1,58 @@
+nav
+{
+    padding: 20px 0;
+}
+.navegador img
+{
+    font-size: 2rem;
+    float: left;
+}
+nav ul
+{
+    list-style-type: none;
+}
+nav li
+{
+    font-size: 1.3rem;
+    margin-top: 5px;
+    float: left;
+    padding: 0 15px;
+}
+nav a
+{
+    color:black;
+    text-decoration: none;
+}
+body
+{
+    background-color: rgb(255, 255, 255);
+}
+.Imagen1
+{
+    position:absolute;
+    left: 200px;
+    top: 200px;
+}
+.texto h1 
+{
+    position: absolute;
+    top:150px;
+    left: 725px;
+}
+.texto p
+{
+    position: relative;
+    top: 170px;
+    left: 200px;
+    margin-left: left;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+}
+h1
+{
+    position: relative;
+    left: 300px;
+    top: 70px;
+}
