@@ -2,8 +2,8 @@ class MiFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = /* html */
       `<p>
-        &copy; 2021
-        Ricardo Armando Machorro Reyes.
+        &copy; 17/diciembre/2021
+        Luis Fernando Jasso Tovar Arkness.
       </p>`;
   }
 }

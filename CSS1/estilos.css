@@ -56,3 +56,15 @@ h1
     left: 300px;
     top: 70px;
 }
+table tr th 
+{
+    text-align: center;
+}
+table
+{
+    text-align:left;
+    position: absolute ;
+    top: 150px;
+    margin: 50px  ;
+    padding: 8px;
+}
