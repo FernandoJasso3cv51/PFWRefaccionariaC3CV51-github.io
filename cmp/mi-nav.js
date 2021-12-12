@@ -19,7 +19,7 @@ class MiNav extends HTMLElement {
         </li>
         <li>
           <a href="inicio.html">
-            Sesión</a>
+            Inicio</a>
         </li>
         <li>
         <a href="Catalogo.html">
