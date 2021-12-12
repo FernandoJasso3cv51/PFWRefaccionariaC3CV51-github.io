@@ -87,3 +87,11 @@ table
     left: 120%;
     transform: translate(-50%, -50%);
 }
+#mios
+{
+    opacity: 0;
+}
+.conocenos1
+{
+    margin-left: 44%;
+}

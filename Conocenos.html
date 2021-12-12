@@ -39,30 +39,31 @@
 <body>
     <br>  
     <div class="conocenos1">
-        <form action="/mailito:pfrcweb3cv51@gmail.com" method="post">
-            <ul>
-             <li>
-               <label for="name">Nombre:</label>
-               <br>
-               <input type="text" id="name" name="user_name">
-             </li>
-             <br>
-             <li>
-               <label for="mail">Correo electrónico:</label>
-               <br>
-               <input type="email" id="mail" name="user_mail">
-             </li>
-             <br>
-             <li>
-               <label for="msg">Mensaje:</label>
-               <br>
-               <textarea id="msg" name="user_message"required rows="15" cols="40"></textarea>
-             </li>
-             <br>
-            </ul>
-            <input type="submit" value="Enviar">
-        </form>
+        <form id="form" action="" class="form">
+            <label for="name">Nombre <span>*</span></label><br>
+            <input name="name" required type="text" id="name" placeholder="Juan"><br>
+            <label for="email">Correo electrónico <span>*</span></label><br>
+            <input name="email" type="text" id="email" required placeholder="juan@gmail.com"><br>
+            <label for="message">Mensaje</label><br>
+            <textarea id="message" name="message" id="" cols="30" rows="10"></textarea><br>
+            <button type="submit" class="btn primary full">enviar mensaje</button><br>
+          </form>
+          <a href="mailto::pfrcweb3cv51@gmail.com" id="mios"></a>
     </div>
         <my-footer></my-footer>
 </body>
+<script>
+    const form = document.querySelector('#form')
+    const botonMailto = document.querySelector('#mios')
+    form.addEventListener('submit', handleSubmit)
+
+    function handleSubmit(event)
+     {
+        event.preventDefault()
+        const form = new FormData(this)
+        botonMailto.setAttribute('href', `mailto::pfrcweb3cv51@gmail.com?subject=nombre ${form.get('name')}  correo ${form.get('email')}&body=${form.get('message')}`)
+        botonMailto.click()
+     }
+
+</script>
 </html>
