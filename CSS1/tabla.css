@@ -1,0 +1,18 @@
+.tabla1
+{
+    column-count: 2;
+    column-gap: 3em;
+    column-rule: 2px solid#bbb;
+    column-width: 140px;
+    column-span: all;
+}
+td img
+{
+    display: block;
+    column-span: all;
+
+}
+.conocenos1
+{
+    text-align: center;
+}

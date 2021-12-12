@@ -38,13 +38,31 @@
     <h1> Conocenos </h1>
 <body>
     <br>  
-        <div class="contenedor">
-            <img src="Imagenes/Autopartes.jpg" width="300", height="200"/>
-                <div class="texto-encima">Somos una refaccionaria con mas de 25 años de experiencia trayendote los mejores productos
-                    para tus necesidades automotrices, si necesitas autopartes la refaccionaria los cipreses es la mejor
-                    opcion para ti y tu carro</div>
-                <div class="centrado"></div>
-        </div>
+    <div class="conocenos1">
+        <form action="/mailito:pfrcweb3cv51@gmail.com" method="post">
+            <ul>
+             <li>
+               <label for="name">Nombre:</label>
+               <br>
+               <input type="text" id="name" name="user_name">
+             </li>
+             <br>
+             <li>
+               <label for="mail">Correo electrónico:</label>
+               <br>
+               <input type="email" id="mail" name="user_mail">
+             </li>
+             <br>
+             <li>
+               <label for="msg">Mensaje:</label>
+               <br>
+               <textarea id="msg" name="user_message"required rows="15" cols="40"></textarea>
+             </li>
+             <br>
+            </ul>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
         <my-footer></my-footer>
 </body>
 </html>
