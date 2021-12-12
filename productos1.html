@@ -5,15 +5,16 @@
   <meta name="viewport"
     content="width=device-width,
        initial-scale=1.0">
-  <title>
-    Alumno Nuevo
-  </title>
+  <title>Producto</title>
   <script
-    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js">
+    </script>
   <script
-    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js">
+    </script>
   <script
-    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js">
+    </script>
   <script src="js/init.js">
   </script>
   <script type="module"
@@ -21,27 +22,34 @@
     </script>
   <script type="module"
     src="cmp/mi-footer.js">
-    </script>
+  </script>
+  <script type="module"
+  src="cmp/mi-progreso.js"> 
+  </script>
   <link rel="stylesheet"
     href="css/estilos.css">
+
 </head>
 <body>
   <form name="forma">
     <mi-nav></mi-nav>
     <header>
-      <h1>Productos Nuevos</h1>
+      <h1>Producto</h1>
       <div class="herramientas">
-        <a
-          href="alumnos.html">
+        <a href="Productos.html">
           Cancelar</a>
-        <button type="submit">
-          Guardar
+        <button>Guardar</button>
+        <button name="eliminar"
+          type="button">
+          Eliminar
         </button>
       </div>
+      <mi-progreso>
+      </mi-progreso>
     </header>
     <p>
       <label>
-        Descripción Productos
+        Descripcion de Productos
         <input name="matricula"
           type="text" required>
       </label>
@@ -69,15 +77,14 @@
     </p>
     <p>
       <label>
-        Fechas de Ingreso 
-        <input name="fecha"
-          type="date" required>
+        Fechas de ingresos
+        <input name="fecha" type="date" required>
       </label>
     </p>
     <mi-footer></mi-footer>
   </form>
   <script type="module"
-    src="js/CtrlAlumnoNuevo.js">
+    src="js/CtrlAlumno.js">
     </script>
 </body>
 </html>

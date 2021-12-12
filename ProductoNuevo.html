@@ -5,16 +5,15 @@
   <meta name="viewport"
     content="width=device-width,
        initial-scale=1.0">
-  <title>Alumno</title>
+  <title>
+    Productos Nuevos 
+  </title>
   <script
-    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js">
-    </script>
+    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
   <script
-    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js">
-    </script>
+    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
   <script
-    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js">
-    </script>
+    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
   <script src="js/init.js">
   </script>
   <script type="module"
@@ -22,69 +21,63 @@
     </script>
   <script type="module"
     src="cmp/mi-footer.js">
-  </script>
-  <script type="module"
-  src="cmp/mi-progreso.js"> 
-  </script>
+    </script>
   <link rel="stylesheet"
     href="css/estilos.css">
-
 </head>
 <body>
   <form name="forma">
     <mi-nav></mi-nav>
     <header>
-      <h1>Alumno</h1>
+      <h1>Productos Nuevos</h1>
       <div class="herramientas">
-        <a href="alumnos.html">
+        <a
+          href="alumnos.html">
           Cancelar</a>
-        <button>Guardar</button>
-        <button name="eliminar"
-          type="button">
-          Eliminar
+        <button type="submit">
+          Guardar
         </button>
       </div>
-      <mi-progreso>
-      </mi-progreso>
     </header>
     <p>
       <label>
-        Matricula
+        Descripción Productos
         <input name="matricula"
           type="text" required>
       </label>
     </p>
     <p>
       <label>
-        Nombre
+        Marca
         <input name="nombre"
           type="text" required>
       </label>
     </p>
     <p>
       <label>
-        Teléfono
+        Precio
         <input name="telefono"
           type="text" required>
       </label>
     </p>
     <p>
       <label>
-        Grupo
+        Piezas Disponibles
         <input name="grupo"
           type="text" required>
       </label>
     </p>
     <p>
       <label>
-        Fecha
-        <input name="fecha" type="date" required>
+        Fechas de Ingreso 
+        <input name="fecha"
+          type="date" required>
       </label>
     </p>
     <mi-footer></mi-footer>
   </form>
   <script type="module"
-    src="js/CtrlAlumno.js">
+    src="js/CtrlAlumnoNuevo.js">
     </script>
 </body>
 </html>
