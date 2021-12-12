@@ -4,6 +4,7 @@ class MiFooter extends HTMLElement {
       `<p>
         &copy; 17/diciembre/2021
         Luis Fernando Jasso Tovar Arkness.
+        
       </p>`;
   }
 }
