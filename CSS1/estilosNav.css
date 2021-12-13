@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Source+Code+Pro:wght@200;700&display=swap');
 *{
   padding: 0;
   margin: 0;
 }
 
 body{
-  font-family: 'Source Code Pro';
-  background-color: #E6E6EA;
+  font-family: 'Libre Baskerville';
+  background-color: #ffffff;
 }
 
 header{
@@ -40,7 +40,7 @@ nav ul{
 
 nav li{
   font-size: 1.3rem;
-  margin-top: 5px;
+  margin-top: 40px;
   float: left;
   padding: 0 15px;
 }
