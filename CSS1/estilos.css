@@ -26,10 +26,7 @@ table
     display:inline-flex;
     text-align: left;
 }
-.contenedor img{
-    position: relative;
-    left: 5%;
-}
+
 .texto-encima{
  
     position: relative;
