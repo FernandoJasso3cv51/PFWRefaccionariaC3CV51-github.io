@@ -14,8 +14,8 @@ td img
 }
 .referencias
 {
-    column-count: 2;
-    column-rule: 10px solid#bbb;
+    margin-left: 9.5%;
+    margin-top: 10%;
     column-width: 140px;
     column-span: all;
 }
