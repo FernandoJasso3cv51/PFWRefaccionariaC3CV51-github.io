@@ -12,3 +12,10 @@ td img
     column-span: all;
 
 }
+.referencias
+{
+    column-count: 2;
+    column-rule: 10px solid#bbb;
+    column-width: 140px;
+    column-span: all;
+}
