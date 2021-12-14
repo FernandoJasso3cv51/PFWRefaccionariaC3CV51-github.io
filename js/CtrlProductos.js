@@ -67,8 +67,8 @@ function htmlFila(doc) {
    * @type {import("./tipos.js").
                   Productos} */
   const data = doc.data();
-  const matricula = cod(data.matricula);
-  const nombre = cod(data.nombre);
+  const dp = cod(data.dp);
+  const marca = cod(data.marca);
   var fsf= cod(data.fecha);
   var fecha = new Date(fsf);
   var espacio="[   -   ]";
@@ -81,7 +81,7 @@ function htmlFila(doc) {
       <a class="fila" href=
   "Producto.html?${parámetros}">
         <strong class="primario">
-          ${matricula} ${nombre} ${dformat}
+          ${dp} ${marca} ${dformat}
         </strong>
       </a>
      
