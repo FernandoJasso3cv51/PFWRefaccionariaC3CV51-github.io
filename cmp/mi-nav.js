@@ -26,10 +26,6 @@ class MiNav extends HTMLElement {
             Catalogo</a>
         </li>
         <li>
-        <a href="registrarse.html">
-            registrarse</a>
-        </li>
-        <li>
         <a href="Contactanos.html">
             Contactanos</a>
         </li>
