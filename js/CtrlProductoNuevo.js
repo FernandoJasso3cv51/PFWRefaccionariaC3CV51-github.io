@@ -39,20 +39,20 @@ async function guarda(evt) {
     const formData =
       new FormData(forma);
     const dp = getString(
-        formData, "dp").trim();  
-    const nombre = getString(formData, "marca").trim();
-    const telefono = getString(formData, "precio").trim();
-    const grupo = getString(formData, "pd").trim();
+        formData, "matricula").trim();  
+    const nombre = getString(formData, "nombre").trim();
+    const telefono = getString(formData, "telefono").trim();
+    const grupo = getString(formData, "grupo").trim();
     const fecha = getString(formData, "fecha").trim();
     /**
      * @type {
         import("./tipos.js").
                 Productos} */
     const modelo = {
-      dp,
-      marca,
-      precio,
-      pd,
+      matricula,
+      nombre,
+      telefono,
+      grupo,
       fecha 
     };
     await daoProductos.
