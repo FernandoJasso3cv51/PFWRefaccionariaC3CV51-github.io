@@ -4,7 +4,7 @@
  */
 
 /**
- * @typedef {Object} Alumno
+ * @typedef {Object} Productos
  * @property {string} nombre
  */
 
