@@ -1,8 +1,4 @@
-
-body
-{
-    background-color: rgb(255, 255, 255);
-}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat+Alternates:ital@1&family=Noto+Sans:ital@1&family=Source+Code+Pro:wght@200;700&display=swap');
 h1
 {
     text-align: center;
@@ -48,4 +44,58 @@ table
 .conocenos1
 {
     margin-left: 44%;
+}
+.catalogo-contenedor 
+{
+    width: 100%0;
+    background: #ff3636;
+    color: black;
+}
+.catalogo-main
+{
+    width: 98%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.catalogo-main .catalogo-columna
+{
+    width: calc(100% / 8);
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.catalogo-main .catalogo-columna a
+{
+    text-align: center;
+    color:black;
+}
+footer
+{
+    width: 100%;
+    font-family: Montserrat Alternates;
+    text-align: center;
+}
+.footer-contenedor
+{
+    width: 100%0;
+    background: #ff3636;
+    color: black;
+}
+.footer-main
+{
+    width: 98%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-main .footer-columnas
+{
+    width: calc(100% / 3);
+    text-align: center;
+    
 }

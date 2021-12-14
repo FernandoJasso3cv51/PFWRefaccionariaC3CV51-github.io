@@ -9,7 +9,8 @@
     width: 400%;
     padding: 0;
 
-    animation: cambio 20s infinite;
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-out;
 }
 .slider li
 {
