@@ -14,9 +14,9 @@ import {
 /** @type {HTMLUListElement} */
 const lista = document.
   querySelector("#lista");
-const daoAlumno =
+const daoProductos =
   getFirestore().
-    collection("Alumno");
+    collection("Productos");
 
 getAuth().
   onAuthStateChanged(
@@ -33,7 +33,7 @@ async function protege(usuario) {
 }
 
 function consulta() {
-  daoAlumno.
+  daoProductos.
     orderBy("nombre")
     .onSnapshot(
       htmlLista, errConsulta);
@@ -51,7 +51,7 @@ function htmlLista(snap) {
   } else {
     html += /* html */
       `<li class="vacio">
-        -- No hay alumnos
+        -- No hay Productos
         registrados. --
       </li>`;
   }
@@ -65,7 +65,7 @@ function htmlLista(snap) {
 function htmlFila(doc) {
   /**
    * @type {import("./tipos.js").
-                  Alumno} */
+                  Productos} */
   const data = doc.data();
   const matricula = cod(data.matricula);
   const nombre = cod(data.nombre);
@@ -79,7 +79,7 @@ function htmlFila(doc) {
   return ( /* html */
     `<li>
       <a class="fila" href=
-  "alumno.html?${parámetros}">
+  "Producto.html?${parámetros}">
         <strong class="primario">
           ${matricula} ${nombre} ${dformat}
         </strong>

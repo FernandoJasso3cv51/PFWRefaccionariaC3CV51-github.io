@@ -7,15 +7,15 @@ import {
   muestraError
 } from "../lib/util.js";
 import {
-  muestraAlumnos
+  muestraProductos
 } from "./navegacion.js";
 import {
   tieneRol
 } from "./seguridad.js";
 
-const daoAlumno =
+const daoProductos =
   getFirestore().
-    collection("Alumno");
+    collection("Productos");
 /** @type {HTMLFormElement} */
 const forma = document["forma"];
 getAuth().onAuthStateChanged(
@@ -47,7 +47,7 @@ async function guarda(evt) {
     /**
      * @type {
         import("./tipos.js").
-                Alumno} */
+                Productos} */
     const modelo = {
       matricula,
       nombre,
@@ -55,9 +55,9 @@ async function guarda(evt) {
       grupo,
       fecha 
     };
-    await daoAlumno.
+    await daoProductos.
       add(modelo);
-    muestraAlumnos();
+    muestraProductos();
   } catch (e) {
     muestraError(e);
   }
