@@ -15,7 +15,7 @@ import {
 
 const daoAlumno =
   getFirestore().
-    collection("Productos");
+    collection("Alumno");
 /** @type {HTMLFormElement} */
 const forma = document["forma"];
 getAuth().onAuthStateChanged(
@@ -47,7 +47,7 @@ async function guarda(evt) {
     /**
      * @type {
         import("./tipos.js").
-                Producto} */
+                Alumno} */
     const modelo = {
       matricula,
       nombre,

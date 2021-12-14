@@ -15,7 +15,7 @@ import {
 
 const daoAlumno =
   getFirestore().
-    collection("Productos");
+    collection("Alumno");
 const params =
   new URL(location.href).
     searchParams;
@@ -85,7 +85,7 @@ async function guarda(evt) {
     /**
      * @type {
         import("./tipos.js").
-              Productos} */
+                Alumno} */
     const modelo = {
       matricula, 
       nombre,
