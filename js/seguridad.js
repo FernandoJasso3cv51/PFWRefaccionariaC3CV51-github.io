@@ -47,8 +47,8 @@ export async function
         return true;
       }
     }
-    # alert("No autorizado.");
-    # location.href = "index.html";
+    alert("No autorizado.");
+    location.href = "index.html";
   } else {
     iniciaSesión();
   }

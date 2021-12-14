@@ -21,10 +21,7 @@ class MiNav extends HTMLElement {
           <a href="inicio.html">
             Inicio</a>
         </li>
-        <li>
-          <a href="chat.html">
-            Chat</a>
-        </li>
+        
         <li>
         <a href="Catalogo.html">
             Catalogo</a>
