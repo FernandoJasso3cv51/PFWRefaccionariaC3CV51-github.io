@@ -47,7 +47,7 @@ async function guarda(evt) {
     /**
      * @type {
         import("./tipos.js").
-                Alumno} */
+                Producto} */
     const modelo = {
       matricula,
       nombre,
