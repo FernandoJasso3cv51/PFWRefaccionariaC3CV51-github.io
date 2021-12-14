@@ -27,7 +27,7 @@ class MiNav extends HTMLElement {
         </li>
         <li>
         <a href="Contactanos.html">
-            Conocenos</a>
+            Contactanos</a>
         </li>
       </ul>`;
     this.ul =
