@@ -13,7 +13,7 @@ import {
 
 const SIN_ALUMNOS = /* html */
   `<option value="">
-    -- Sin Alumnos --
+    -- Sin usuarios --
   </option>`;
 
 const firestore = getFirestore();
